@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* File: style.css */
+/* Website: wyverns.nichesite.com */
+
+/* Redefine Generic Attributes */
+
+/* For all BODY of HTML document, unless overridden by more specific selectors */
+body {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+/* For all H1 elements */
+h1 {
+  text-align: center;
+  color: #800020; 
+  font-size: 4em;
+  font-weight: bold;
+}
+
+/* Define <... class=xxx> attributes (.xxx), primarily used for applying the same styling to a group of elements */
+
+.header{
+  background-color: gold;
+  width:100%;
+  height:100px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.sidebar{
+  float:left;
+  width:15%;
+  background-color: lightgoldenrodyellow;
+  min-height: 600px;
+}
+
+.main{
+  float:left;
+  width:85%;
+  background-color: white;
+}
+
+.footer{
+  clear:both;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: gold;
+  font-size: 1em;
+}
+
+/* Define <... id="xxx"> attributes (#xxx) primarily used for specific styling, JavaScript interactions, or linking 
+to a specific section within a page */
